@@ -8,9 +8,11 @@ const findSum = () => {
   debugger;
 
   // add together all the saved numbers (use your util function!)
+  const findSumNo = sum(numbers);
 
   // display the sum of all numbers in the DOM
+  display('secret-solution', 'Sum No = ' + (findSumNo))
 };
 
 // !! fill in this blank with the correct DOM ID
-document.getElementById('__').addEventListener('click', findSum);
+document.getElementById('sum-them').addEventListener('click', findSum);
