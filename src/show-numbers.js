@@ -9,19 +9,19 @@ const showNumbers = () => {
 
   // generate a string list of all numbers (use the util!)
 
-// 1st way
+  // 1st way
 
-let showNum = ('show-them', numbers);
+  let showNum = ('show-them', numbers);
 
-// 2ed way
-// ('show-them', numbers)
+  // 2ed way
+  // ('show-them', numbers)
 
-// 3 way 
-// let showNum = ('show-them', numbers);
-// let getNum = showNum;
+  // 3 way
+  // let showNum = ('show-them', numbers);
+  // let getNum = showNum;
 
   // display the list of numbers to the UI
-  display('secret-solution', listItems(showNum)); 
+  display('secret-solution', listItems(showNum));
 };
 
 // !! fill in this blank with the correct DOM ID

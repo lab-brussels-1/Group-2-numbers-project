@@ -11,8 +11,7 @@ const findAverage = () => {
   const avgNo = average(numbers);
 
   // display the average in the UI
-  display('secret-solution', 'Average = ' + (avgNo));
-
+  display('secret-solution', 'Average = ' + avgNo);
 };
 
 // !! fill in this blank with the correct DOM ID

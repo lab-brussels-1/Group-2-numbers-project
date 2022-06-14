@@ -10,12 +10,12 @@ const addNumber = () => {
   debugger;
 
   // read the user's number
-const newNumber = readNumber('the-num');
+  const newNumber = readNumber('the-num');
 
   // add it to the array of numbers
-numbers.push(newNumber);
+  numbers.push(newNumber);
   // generate and display a string listing all numbers
-  display('your-output',listItems(numbers));
+  display('your-output', listItems(numbers));
   display('secret-solution', listItems(numbers));
 };
 

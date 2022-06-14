@@ -1,5 +1,3 @@
-
-
 /**
  * Converts an array if items into a string list.
  *
@@ -16,9 +14,9 @@
  *
  */
 export const listItems = (arr = []) => {
-    let newArr = '';
-    for (const num of arr) {
-        newArr += `* ${num}\n`;
-    }
-    return newArr;
+  let newArr = '';
+  for (const num of arr) {
+    newArr += `* ${num}\n`;
+  }
+  return newArr;
 };

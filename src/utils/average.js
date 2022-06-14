@@ -5,10 +5,10 @@
  * @returns {number} The average of all numbers.
  */
 export const average = (nums = []) => {
-    let averageNum = 0;
-    for (let num of nums) {
-        averageNum += num;
-    }
-    averageNum = averageNum / nums.length;
-    return averageNum;
+  let averageNum = 0;
+  for (let num of nums) {
+    averageNum += num;
+  }
+  averageNum = averageNum / nums.length;
+  return averageNum;
 };
