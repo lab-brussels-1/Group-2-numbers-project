@@ -6,7 +6,7 @@
  */
 export const sum = (nums = []) => {
   let sumNum = 0;
-  for (let sumNo of nums) {
+  for (const sumNo of nums) {
     sumNum += sumNo;
   }
   return sumNum;

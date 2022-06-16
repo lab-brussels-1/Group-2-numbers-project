@@ -7,7 +7,6 @@ import { listItems } from './utils/list-items.js';
 debugger;
 
 const addNumber = () => {
-  debugger;
 
   // read the user's number
   const newNumber = readNumber('the-num');

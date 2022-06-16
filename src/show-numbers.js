@@ -5,13 +5,12 @@ import { display } from '../lib/dom-io.js';
 import { listItems } from './utils/list-items.js';
 
 const showNumbers = () => {
-  debugger;
 
   // generate a string list of all numbers (use the util!)
 
   // 1st way
 
-  let showNum = ('show-them', numbers);
+ const showNum = ('show-them', numbers);
 
   // 2ed way
   // ('show-them', numbers)

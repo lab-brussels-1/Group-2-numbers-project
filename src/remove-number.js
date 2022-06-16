@@ -5,7 +5,6 @@ import { readNumber, display } from '../lib/dom-io.js';
 import { listItems } from './utils/list-items.js';
 
 const removeNumber = () => {
-  debugger;
 
   // read the user's number
   const rmArray = readNumber('the-num');
