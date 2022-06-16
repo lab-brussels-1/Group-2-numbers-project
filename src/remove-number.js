@@ -15,11 +15,10 @@ const removeNumber = () => {
   for (let i = 0; i < numbers.length; i++) {
     numbers[i] === rmArray ? numbers.splice(i, 1) : 0;
   }
-
-  // let newNum = numbers;
   // display the new list of numbers (use the util function!)
-
   display('your-output', listItems(numbers));
+  display('secret-solution', listItems(numbers));
 };
+
 // !! fill in this blank with the correct DOM ID
 document.getElementById('remove-it').addEventListener('click', removeNumber);
