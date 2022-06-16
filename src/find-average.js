@@ -5,7 +5,6 @@ import { display } from '../lib/dom-io.js';
 import { average } from './utils/average.js';
 
 const findAverage = () => {
-
   // calculate the average of all saved numbers  (use your util function!)
   const avgNo = average(numbers);
 
