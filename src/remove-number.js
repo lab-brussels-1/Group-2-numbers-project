@@ -11,8 +11,8 @@ const removeNumber = () => {
   // remove the user's number from the array
 
   for (let i = 0; i < numbers.length; i++) {
-    if(numbers[i] === rmArray){
-      numbers.splice(i, 1)
+    if (numbers[i] === rmArray) {
+      numbers.splice(i, 1);
     }
     // numbers[i] === rmArray ? numbers.splice(i, 1) : 0;
   }
