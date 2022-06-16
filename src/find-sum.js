@@ -9,7 +9,7 @@ const findSum = () => {
   const findSumNo = sum(numbers);
 
   // display the sum of all numbers in the DOM
-  display('secret-solution', 'Sum No = ' + findSumNo);
+  display('secret-solution', `Sum = ${findSumNo}`);
 };
 
 // !! fill in this blank with the correct DOM ID
