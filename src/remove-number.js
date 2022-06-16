@@ -11,7 +11,10 @@ const removeNumber = () => {
   // remove the user's number from the array
 
   for (let i = 0; i < numbers.length; i++) {
-    numbers[i] === rmArray ? numbers.splice(i, 1) : 0;
+    if(numbers[i] === rmArray){
+      numbers.splice(i, 1)
+    }
+    // numbers[i] === rmArray ? numbers.splice(i, 1) : 0;
   }
   // display the new list of numbers (use the util function!)
   display('your-output', listItems(numbers));
