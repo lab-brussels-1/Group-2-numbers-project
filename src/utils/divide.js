@@ -1,5 +1,5 @@
 /**
- * divides all the numbers in a list.
+ * Divides all the numbers in a list.
  *
  * @param {number[]} [nums=[]] - The numbers to divide.
  * @returns {number} The sum of all numbers in the list.
@@ -13,6 +13,6 @@ export const divide = (nums = []) => {
     div += num;
   }
   // dividing the array by two
-  div = div / 2;
+  div /= 2;
   return div;
 };

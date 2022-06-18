@@ -4,13 +4,8 @@ import { display } from '../lib/dom-io.js';
 
 import { divide } from './utils/divide.js';
 
-debugger;
-
 const divideNumber = () => {
-  //create a var and apply the function
-
-  let toDivide = divide(numbers);
-  // display result
+  const toDivide = divide(numbers);
 
   display('your-output', toDivide);
 };

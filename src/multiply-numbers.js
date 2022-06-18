@@ -4,10 +4,8 @@ import { display } from '../lib/dom-io.js';
 
 import { multiply } from './utils/multiply.js';
 
-debugger;
-
 const findMultiple = () => {
-  let multiplyNum = multiply(numbers);
+  const multiplyNum = multiply(numbers);
 
   display('your-output', multiplyNum);
 };
