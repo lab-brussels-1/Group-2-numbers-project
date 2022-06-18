@@ -10,6 +10,7 @@ const findAverage = () => {
 
   // display the average in the UI
   display('secret-solution', `Average = ${avgNo}`);
+  display('your-output', avgNo);
 };
 
 // !! fill in this blank with the correct DOM ID
