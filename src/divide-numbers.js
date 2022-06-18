@@ -7,13 +7,11 @@ import { divide } from './utils/divide.js';
 debugger;
 
 const divideNumber = () => {
+  //create a var and apply the function
 
-//create a var and apply the function
+  let toDivide = divide(numbers);
+  // display result
 
-    let toDivide = divide(numbers) ;
-// display result
-
-    display('your-output', toDivide);
-    
-}
+  display('your-output', toDivide);
+};
 document.getElementById('divide-by-2').addEventListener('click', divideNumber);

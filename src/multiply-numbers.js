@@ -4,12 +4,14 @@ import { display } from '../lib/dom-io.js';
 
 import { multiply } from './utils/multiply.js';
 
- debugger;
+debugger;
 
 const findMultiple = () => {
-let multiplyNum = multiply(numbers);
+  let multiplyNum = multiply(numbers);
 
-display('your-output', multiplyNum);
-}
+  display('your-output', multiplyNum);
+};
 
-document.getElementById('multiply-them').addEventListener('click', findMultiple);
+document
+  .getElementById('multiply-them')
+  .addEventListener('click', findMultiple);
