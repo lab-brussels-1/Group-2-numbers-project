@@ -3,3 +3,13 @@
   background-color: rgba(248, 244, 0, 0.541);
 }
 
+button{
+  border: 1px, solid;
+}
+.column{
+  font-family: monospace;
+}
+.footer{
+  background-color : white;
+}
+
