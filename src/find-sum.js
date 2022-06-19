@@ -10,6 +10,7 @@ const findSum = () => {
 
   // display the sum of all numbers in the DOM
   display('secret-solution', `Sum = ${findSumNo}`);
+  display('your-output', findSumNo);
 };
 
 // !! fill in this blank with the correct DOM ID

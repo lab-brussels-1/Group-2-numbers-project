@@ -193,6 +193,8 @@ function _0xba21() {
     'fnroY',
     'AoXId',
     'stener',
+    'multiply-them',
+    'divide-by-2',
   ];
   return (_0xba21 = function () {
     return n;
